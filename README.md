@@ -24,6 +24,24 @@ Alternately, you can select "Copy Template" button to its right--that may be sim
 After a few moments, your site will be live at:  
 `https://YOUR_USERNAME.github.io/swfarchiver/`
 
+### Step 3: Create a GitHub Access Token (Required for Uploads)
+
+To use the upload feature in Flash Archiver, you’ll need a GitHub **Personal Access Token (Classic)**. The newer fine-grained tokens currently don’t provide enough permission to upload files via the GitHub API.
+
+#### How to Generate:
+
+1. Go to: [https://github.com/settings/tokens](https://github.com/settings/tokens)
+2. Click **"Generate new token (classic)"**
+3. Name it something like `Flash Archiver Upload`
+4. Set an expiration if you want
+5. Under **scopes**, check:
+   -`repo` (this gives the tool permission to read and upload SWF files)
+6. Generate and copy the token — you won’t be able to view it again later!
+
+Paste the token into the “GitHub Personal Access Token” field in the Flash Archiver UI when uploading a file.
+
+> *Note: The token is only used client-side to authorize with GitHub’s API during upload. It’s not stored or shared.*
+
 ## Step 3: Use the Archiver Tool
 
 1. Open your GitHub Pages site in a browser:  
