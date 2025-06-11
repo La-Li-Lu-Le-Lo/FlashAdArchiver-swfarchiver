@@ -42,7 +42,7 @@ Paste the token into the “GitHub Personal Access Token” field in the Flash A
 
 > *Note: The token is only used client-side to authorize with GitHub’s API during upload. It’s not stored or shared.*
 
-## Step 3: Use the Archiver Tool
+## Step 4: Use the Archiver Tool
 
 1. Open your GitHub Pages site in a browser:  
    `https://YOUR_USERNAME.github.io/swfarchiver/`  
