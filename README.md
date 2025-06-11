@@ -2,14 +2,16 @@
 
 This guide explains how to set up your own copy of the Flash Archiver tool to upload, preview, and embed SWF files hosted from your personal GitHub Pages site.
 
-## Step 1: Fork the Repository
+## Step 1: Fork the Repository or Copy Template
 
-1. Visit the original repository at: [https://github.com/FlashAdArchiver/swfArchiver](https://github.com/FlashAdArchiver/swfArchiver)  
-2. Click the "Fork" button in the top-right corner  
+1. Visit the original repository at: [https://github.com/FlashAdArchiver/swfarchiver](https://github.com/FlashAdArchiver/swfarchiver)  
+2. Click the "Fork" button in the top-right corner
 3. Choose your GitHub account  
 
 GitHub will create a forked copy for you at:  
-`https://github.com/YOUR_USERNAME/swfArchiver`
+`https://github.com/YOUR_USERNAME/swfarchiver`
+
+Alternately, you can select "Copy Template" button to its right--that may be simplest.
 
 ## Step 2: Enable GitHub Pages
 
@@ -20,12 +22,12 @@ GitHub will create a forked copy for you at:
 3. Click **Save**
 
 After a few moments, your site will be live at:  
-`https://YOUR_USERNAME.github.io/swfArchiver/`
+`https://YOUR_USERNAME.github.io/swfarchiver/`
 
 ## Step 3: Use the Archiver Tool
 
 1. Open your GitHub Pages site in a browser:  
-   `https://YOUR_USERNAME.github.io/swfArchiver/`  
+   `https://YOUR_USERNAME.github.io/swfarchiver/`  
 2. Enter your GitHub Personal Access Token in the input field  
    > This token must include `repo` access permissions.  
 3. Use the tool interface to:  
@@ -36,7 +38,7 @@ After a few moments, your site will be live at:
 The embed code will look like:
 
 ```
-https://YOUR_USERNAME.github.io/swfArchiver/index.html?swf=FILENAME.swf&width=WIDTH&height=HEIGHT
+https://YOUR_USERNAME.github.io/swfarchiver/index.html?swf=FILENAME.swf&width=WIDTH&height=HEIGHT
 ```
 
 > Note: The `swf/` folder will be created automatically the first time you upload a file.
